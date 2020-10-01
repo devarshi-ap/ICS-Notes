@@ -13,7 +13,7 @@ Methods| General info about Java methods, String Methods
 Misc| Universal Java Knowledge
 Printing| Printf, Ternary Operator
 Variables| Java Basics, Reading Variables, Type Casting
-> All topics are subject to perpetual edit
+    All topics are subject to perpetual edit
 <br>
 
 ### ```Important```
