@@ -1,9 +1,22 @@
 # ICS-Notes
 
-##### CompSci notes for high school students taking ICS, and for anyone else that needs it
+##### CompSci notes for high school students taking ICS, and for anyone else that needs it.
+<br>
 
+### ```Current Topics``` as of Oct 2020
+Category|  SubTopics
+-----|-------
+Conditionals| if-else, do-while, for-each, switch-case, try-catch, logical operators
+Data Structures| Arrays, Lists, LinkedLists, HashMaps, Queues, Stacks, Trees, TreeMaps, TreeSets
+Math| Math Operators, Arithmetical Methods
+Methods| General info about Java methods, String Methods
+Misc| Universal Java Knowledge
+Printing| Printf, Ternary Operator
+Variables| Java Basics, Reading Variables, Type Casting
+> All topics are subject to perpetual edit
+<br>
 
-# Important
+### ```Important```
 
 > #### All work done by ```Devarshi Patel``` from ```York Memorial Collegiate Institute``` (Account Owner)
 
