@@ -23,14 +23,3 @@ The method is part of the java.io.PrintStream class and provides String formatti
             System.out.printf("Hello %s!%n", "World");
 
                 In this example, %s is reaplced by the first argument (the only one): "World". Then follows %n which is a new line.
-   
-
-
-/*COOL: basically an if statement in a print method
-        - ? checks if true; if yes, print what follows the question mark
-        - : separates the "arguements". If the first one is false, it goes to second argument
-        */
-        int a = 2, b = 0;
-        System.out.println((a > b) ? ("A") : (b < a) ? ("B") : ("Tie") );
-
-        //QuickType --> Sysout
