@@ -1,6 +1,7 @@
 # ICS-Notes
 
-CompSci notes for high school students taking ICS, and for anyone else that needs it
+###### CompSci notes for high school students taking ICS, and for anyone else that needs it
+
 
 # Important
 > #### All work done by ```Devarshi Patel``` from ```York Memorial Collegiate Institute``` (Account Owner)
