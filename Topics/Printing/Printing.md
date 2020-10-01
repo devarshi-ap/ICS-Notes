@@ -19,11 +19,11 @@ The method is part of the java.io.PrintStream class and provides String formatti
             %n - newline
     
     
-    ex.     System.out.printf("Hello %s!%n", "World");
+    ex.     System.out.printf("%d %f %c %s %b %n", int, double, char, string, boolean);
+            System.out.printf("Hello %s!%n", "World");
 
                 In this example, %s is reaplced by the first argument (the only one): "World". Then follows %n which is a new line.
    
-            System.out.printf("%d %f %c %s %b %n", int, double, char, string, boolean);
 
 
 /*COOL: basically an if statement in a print method
