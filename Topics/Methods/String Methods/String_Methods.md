@@ -115,3 +115,13 @@ String str = "Hello world!";
 str.substring(0, 5);     //"Hello"
 str.substring(6);        //"world!"
 ```
+<br>
+
+##### ```copyValueOf()``` returns a String that contains the characters of the character array
+```Java
+char[] Str1 = {'h', 'e', 'l', 'l', 'o', ' ', 'w', 'o', 'r', 'l', 'd'};
+String Str2 = "";
+Str2 = Str2.copyValueOf( Str1, 0, 7);  //str2 = "hello w"
+
+//copyValue(char[], int offset, int end)    where offset is the index to start and end is the end
+```
