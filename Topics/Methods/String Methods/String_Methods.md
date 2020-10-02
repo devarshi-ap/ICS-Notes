@@ -42,9 +42,9 @@ myStr1.equals(myStr3); // false
 
 ##### ```compareTo()```
 ###### ```compareToIgnoreCase()```
-Returns An int value:\
-- 0 if the string is equal to the other string.\
-- < 0 if the string is lexicographically less than the other string.\
+Returns An int value:
+- 0 if the string is equal to the other string.
+- < 0 if the string is lexicographically less than the other string.
 - \> 0 if the string is lexicographically greater than the other string (more characters).
 ```Java
 String myStr1 = "Hello";
