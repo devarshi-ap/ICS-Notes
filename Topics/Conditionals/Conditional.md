@@ -157,13 +157,17 @@ try{
 } catch(Exception e) {
     //code block to handle errors
 }
-//tries the code in the try code block. If it throws an exception, the catch {}'s will catch the error
-//and run the code in the code block instead of throwing an error.
-/*Exception e can be replaced with:
-- ArithmeticException
-- FileNotFoundException
-- ArrayIndexOutOfBoundsException
-- SecurityException
+
+/*
+tries the code in the try code block. If it throws an exception, it will instead run the catch{}'s code
+
+Replacing the "Exception" and keeping the "e",
+        "Exception" can be replaced with:
+        - ArithmeticException
+        - FileNotFoundException
+        - ArrayIndexOutOfBoundsException
+        - SecurityException
+        - and many more
 */
 ```
 <br>
