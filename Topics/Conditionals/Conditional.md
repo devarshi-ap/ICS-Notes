@@ -8,6 +8,10 @@
 <= less than or equal to
 == equal to
 != not equal to
+
+&& : and
+|| : oro
+!  : not
 ```
 <br>
 
@@ -58,6 +62,22 @@ for (int i = 0; i <= 10; i++) {
 ```
 <br>
 
+##### ```For-Each``` (arrays)
+```Java
+
+for (type var : array) 
+{ 
+    //code
+}
+//Initialize "var", the variable used to store each Integer in list as it iterates.
+
+//ex. This example finds the sum of numbers in list
+    for(int val: listOfNumbers) {
+        sum += val;
+    }
+```
+<br>
+
 ##### ```While```
 ```Java
 int i=0;
@@ -100,5 +120,49 @@ while (true) {
 //While-true loops are handy when the program has to repeat a functionality until the user provides certain input
 //Continue; breaks out of the inner loop and goes to the top of the outer loop.
 //See more in the Misc. Section: ICS NOTES/TOPICS/MISC
+```
+<br>
+
+##### ```Switch-Case```
+```Java
+switch(value){
+    case x:
+        //code
+        break;
+    case y:
+        //code
+        break;
+    default:
+        //code
+}
+//value can be int/double/string etc...
+//if the value is x, then it will do the code in case x. The [break;]'s help escape the conditional
+//if value isn't x or y, then it will do the code in default.
+```
+<br>
+
+##### ```Modulo```
+```Java
+7 % 2
+
+//prints the remainder, 1
+//can be used to check if even (x % 2 == 0) or odd (x % 2 == 1)
+```
+<br>
+
+##### ```Try-Catch```
+```Java
+try{
+    //code block
+} catch(Exception e) {
+    //code block to handle errors
+}
+//tries the code in the try code block. If it throws an exception, the catch {}'s will catch the error
+//and run the code in the code block instead of throwing an error.
+//Exception e can be replaced with:
+- ArithmeticException
+- FileNotFoundException
+- ArrayIndexOutOfBoundsException
+- SecurityException
 ```
 <br>
