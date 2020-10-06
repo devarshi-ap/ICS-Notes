@@ -159,10 +159,11 @@ try{
 }
 //tries the code in the try code block. If it throws an exception, the catch {}'s will catch the error
 //and run the code in the code block instead of throwing an error.
-//Exception e can be replaced with:
+/*Exception e can be replaced with:
 - ArithmeticException
 - FileNotFoundException
 - ArrayIndexOutOfBoundsException
 - SecurityException
+*/
 ```
 <br>
