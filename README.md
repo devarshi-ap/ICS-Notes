@@ -9,7 +9,7 @@ Category|  SubTopics
 Conditionals| if-else, do-while, for-each, switch-case, try-catch, logical operators
 Data Structures| Arrays, Lists, LinkedLists, HashMaps, Queues, Stacks, Trees, TreeMaps, TreeSets
 Math| Math Operators, Arithmetical Methods
-Methods| General info about Java methods, String Methods
+Methods| General info about Java methods, String Methods, Char Methods
 Misc| Universal Java Knowledge
 Printing| Printf, Ternary Operator
 Variables| Java Basics, Reading Variables, Type Casting
