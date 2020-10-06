@@ -48,6 +48,16 @@ if (EpxressionTrue) {
 ```
 <br>
 
+##### ```For```
+```Java
+for (int i = 0; i <= 10; i++) {
+    System.out.println(i);
+}
+//counts up to 10.
+//initializes i, checks expression, increments i.
+```
+<br>
+
 ##### ```While```
 ```Java
 int i=0;
@@ -76,12 +86,19 @@ do{
 
 ##### ```Continue```
 ```Java
-do{
-    System.out.println(i);
-    i++;
-} while(i < 5);
+while (true) {
+    System.out.println("Insert positive integers");
+    int number = sc.nextInt());
 
-//same as above while-loop where it counts up to 5.
-//do-while will run code then check expression whereas while-loops need the expression to be true to enter.
-//if the expression at the bottom is true, it will jump to the top and work it's way down again.
+    if (number <= 0) {
+        System.out.println("Unfit number! Try again.");
+        continue;
+    }
+    System.out.println("Your input was " + number);
+}
+
+//While-true loops are handy when the program has to repeat a functionality until the user provides certain input
+//Continue; breaks out of the inner loop and goes to the top of the outer loop.
+//See more in the Misc. Section: ICS NOTES/TOPICS/MISC
 ```
+<br>
