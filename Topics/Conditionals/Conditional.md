@@ -59,3 +59,29 @@ while(i < 5) {
 //a while loop will keep on running the code inside until the argument is false.
 //Make sure you have an exit card (break;) for the while loop or else you'll end up with an infinite loop
 ```
+<br>
+
+##### ```Do-While```
+```Java
+do{
+    System.out.println(i);
+    i++;
+} while(i < 5);
+
+//same as above while-loop where it counts up to 5.
+//do-while will run code then check expression whereas while-loops need the expression to be true to enter.
+//if the expression at the bottom is true, it will jump to the top and work it's way down again.
+```
+<br>
+
+##### ```Continue```
+```Java
+do{
+    System.out.println(i);
+    i++;
+} while(i < 5);
+
+//same as above while-loop where it counts up to 5.
+//do-while will run code then check expression whereas while-loops need the expression to be true to enter.
+//if the expression at the bottom is true, it will jump to the top and work it's way down again.
+```
