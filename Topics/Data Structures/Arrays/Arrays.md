@@ -53,3 +53,35 @@ cars[0] = "Ferrari";
 //now the cars array looks like {Ferrari, BMW, Ford, Mazda}
 ```
 <br>
+
+
+##### ```Array Length```
+```Java
+//To find out how many elements an array has, use the 'length' method:
+//**Not to be mistaken for 'length()' method which is a string method**
+
+
+String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+System.out.println(cars.length);
+// Outputs 4
+```
+<br>
+
+
+##### ```Iterating over an Array```
+```Java
+//You can loop through the array elements with the for loop, and use 
+//the 'length' method to specify how many times the loop should run :
+
+
+String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+
+for (int i = 0; i < cars.length; i++) {
+    System.out.println(cars[i]);
+}
+
+//starts at index (i) = 0, accesses and prints the value of cars at index i.
+//goes up to cars.length which is 4. Make sure its i < cars.length and not
+//i <= cars.length because it will run once more after i=4 and throw an IndexOutOfBoundsError
+```
+<br>
