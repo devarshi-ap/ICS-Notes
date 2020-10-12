@@ -98,4 +98,30 @@ int[][][] test = {
 <br>
 
 
+##### ```Accessing 3d Array```
+```Java
+//refer to the test[][][] array above.
+//To access elements in a 3d array :  [index of 2d array] [index of row] [index of column]
 
+int x = [0][0][0]    //first 2d array, first row, first column -->  x=1
+int y = [1][0][2]    //second 2d array, first row, third column --> y=6
+int z = [1][0][3]    //second 2d array, first row, fourth column --> z=9
+```
+<br>
+
+
+##### ```Looping over 3d Array using For-Each```
+```Java
+//refer to the test[][][] array above.
+//Uses 3 for-each-loops, 1 more than the 2d example, to account for the extra dimension (row of 2d arrays):
+
+
+for (int[][] array2D: test) {
+       for (int[] array1D: array2D) {
+              for(int item: array1D) {
+                     System.out.println(item);
+              }
+       }
+}
+```
+<br>
