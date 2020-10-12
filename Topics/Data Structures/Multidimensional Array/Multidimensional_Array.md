@@ -39,6 +39,20 @@ int[][] a = {
       {7}, 
 };
 
+```
+<br>
 
+![2d-array-variable-length](https://user-images.githubusercontent.com/59234436/95795286-fee68200-0cb7-11eb-8617-6d3e7478e785.jpg)
+
+<br>
+
+
+##### ```Accessing Elements```
+```Java
+//To access elements, specify the index of the row and column (starts at 0 like 1d array):
+
+int [][] sample = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+
+int x = sample [2][0]       // 3rd row, 1 element; x=7
 ```
 <br>
