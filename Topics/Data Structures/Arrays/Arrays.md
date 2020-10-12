@@ -27,3 +27,17 @@ int[] anArray = new int[10]
 
 ```
 <br>
+
+
+##### ```Accessing Elements```
+```Java
+//You access an array element by referring to the index number (arrays start at 0):
+
+String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+System.out.println(cars[0]);
+//prints Volvo
+
+//Make sure the index you provided is exists or else you'll get a IndexOutOfBoundsError
+//Empty arrays hold "null" values by default
+```
+<br>
