@@ -85,3 +85,25 @@ for (int i = 0; i < cars.length; i++) {
 //i <= cars.length because it will run once more after i=4 and throw an IndexOutOfBoundsError
 ```
 <br>
+
+
+##### ```Iterating using For-Each loop```
+```Java
+/*There is also a "for-each" loop, which is used exclusively to loop through elements in arrays:
+
+for (type variable : arrayname) {
+  code
+}
+
+this loop goes through the array 1 by 1 and assigns it to the variable.
+*/
+
+String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+
+for (String i : cars) {
+    System.out.println(i);
+}
+
+//this prints out all the elements in the array
+```
+<br>
