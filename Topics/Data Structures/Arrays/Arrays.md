@@ -41,3 +41,15 @@ System.out.println(cars[0]);
 //Empty arrays hold "null" values by default
 ```
 <br>
+
+
+##### ```Changing Array Elements```
+```Java
+//To change the value of a specific element, refer to the index number:
+
+String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+cars[0] = "Ferrari";
+
+//now the cars array looks like {Ferrari, BMW, Ford, Mazda}
+```
+<br>
