@@ -56,3 +56,46 @@ int [][] sample = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
 int x = sample [2][0]       // 3rd row, 1 element; x=7
 ```
 <br>
+
+
+##### ```Looping over 2d Array```
+```Java
+/* uses for-loop to iterate through the rows of the array up to a.length then uses another for-loop to iterate through the 
+   columns (elements in rows) from first element (index 0) to last (1 below the length of the column). This will give the index
+   location to each element in the 2d array. The simply print a[row index][column index].
+*/
+
+int [][] sample = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
+
+
+for (int i = 0; i < a.length; ++i) {
+       for(int j = 0; j < a[i].length; ++j) {
+              System.out.println(a[i][j]);
+       }
+}
+```
+<br>
+
+
+##### ```Initializing 3d Array```
+Basically, a 3d array is an array of 2d arrays
+```Java
+//If you look hard, you'll find the 2d array in 2 rows.
+//So its basically :  [index of 2d array] [index of row] [index of column]
+
+int[][][] test = {
+    {
+        {1, -2, 3}, 
+        {2, 3, 4}
+    },
+    { 
+        {-4, -5, 6, 9}, 
+        {1}, 
+        {2, 3}
+    } 
+};
+```
+<br>
+
+
+
