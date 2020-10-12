@@ -22,7 +22,7 @@ System.out.println("Average : " + average);
 <br>
 
 
-##### ```Maximum Value```
+##### ```Maximum and Minimum```
 Sort method rearranges int array from least to greatest where the min is the first number and max is the last
 ```Java
 int[] nums = {10, 7, 1, 24, -9, -2, 0, 89, -101};
