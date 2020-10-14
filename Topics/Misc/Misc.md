@@ -43,3 +43,30 @@ a ^= b;
 
 //Now, a=10, b=7
 ```
+<br>
+
+
+##### ```Import Keyword```
+The import keyword is used to import a package, class or interface.
+```Java
+// You can import just the classes you need from a package. Just provide an import statement for each class that you want to use:
+// Import the Scanner class from the Java API
+import java.util.Scanner;
+
+// Another option is to import everything at the same level in a package using import packageName.*.
+import java.util.*;
+
+// Below I've provided a list with useful classes to import and their key uses.
+```
+<br>
+
+
+class | highlight
+----|--------------
+java.lang.String | used to create / operate immutable string literals
+java.lang.Exception | helps deal with exception and error handling
+java.util.ArrayList | implementation of array data structure
+java.util.HashMap | implementation of a key-value pair data structure
+java.lang.Object | contains early methods like equals, hashcode, clone, toString, etc
+java.util.Date | used to work with date and current time
+java.util.Iterator | allows use of an 'Iterator' object that can be used to loop through Lists and HashSets
