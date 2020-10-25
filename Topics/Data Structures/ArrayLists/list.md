@@ -36,6 +36,31 @@ cars.add("Ferrari");    //cars now has ["Maserati", "BMW", "Ferrari"]
 <br>
 
 
+##### ```FInding Index of Items```
+```Java
+// To find the index of an item use the indexOf() method. This method will return the first occurence of the specified
+// item in the list, otherwise it returns -1:
+listName.indexOf("item");
+
+
+numbers.indexOf(1);          // returns index 0 because 1 is the first item in the list (index 0)
+cars.indexOf("Tesla");      // returns index -1 because "Tesla" isn't in the cars list 
+```
+<br>
+
+
+##### ```Checking for Item```
+```Java
+// To check the existence of an item in a list, use the contains() method, which returns true/false:
+listName.contains("item");
+
+
+numbers.contains(3);          // returns true
+cars.contains("Hyundai");        // returns false because "Hyundai" isn't in the cars list 
+```
+<br>
+
+
 ##### ```Accessing Items```
 ```Java
 // To access an element in the list, use the get() method and refer to the index number (starts at 0 just like arrays):
