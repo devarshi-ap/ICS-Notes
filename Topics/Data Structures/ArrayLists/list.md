@@ -93,9 +93,9 @@ cars.size();         // returns 3
 <br>
 
 
-##### ```Sorting List```
+##### ```Sorting List (+reverse)```
 ```Java
-// A useful class in the java.util package is the 'Collections' class, which includes the sort() method for sorting lists //alphabetically (uppercase take priority over lowercase) or numerically (least to greatest.
+// A useful class in the java.util package is the 'Collections' class, which includes the sort() method for sorting lists //alphabetically (uppercase take priority over lowercase) or numerically (least to greatest)
 //You will however need to import the class:
  
 import java.util.ArrayList;
@@ -105,12 +105,18 @@ import java.util.Collections;     // Import the Collections class
 /*
 Lets say we have 2 lists:
     'nums' which has [3, 7, 8, 2, -1, -10, 0]
-    'cars' which has ["Volvo", "BMW", "Ford", "Mazda"]
+    'cars' which has ["Volvo", "BMW", "Ford", "Mazda", "aye"]
 */
 
-Collections.sort(nums);     // new nums list: -10, -1, 0, 2, 3, 7, 8
-Collections.sort(cars);     // new cars list: "BMW", "Ford", "Mazda",
+Collections.sort(nums);     // new nums list: [-10, -1, 0, 2, 3, 7, 8]
+Collections.sort(cars);     // new cars list: ["BMW", "Ford", "Mazda", "Volvo", "aye"]
 
+
+// To sort in reverse order {greatest to least} and descending alphabetical order, add a Collections.reverseOrder()
+// to the Collections.sort() call as a second argument like so:
+
+Collections.sort(nums, Collections.reverseOrder());     // new nums list: [100, 8, 7, 3, 2, 0, -1, -10]
+Collections.sort(cars, Collections.reverseOrder());     // new cars list: ["aye", "Volvo", "Mazda", "Ford", "BMW"]
 ```
 <br>
 
