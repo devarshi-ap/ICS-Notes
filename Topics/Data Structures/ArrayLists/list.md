@@ -78,6 +78,7 @@ listName.clear();
 numbers.clear();  // list is now empty
 cars.clear();
 ```
+<br>
 
 
 ##### ```Size```
@@ -92,19 +93,40 @@ cars.size();         // returns 3
 <br>
 
 
+##### ```Sorting List```
+```Java
+// A useful class in the java.util package is the 'Collections' class, which includes the sort() method for sorting lists //alphabetically (uppercase take priority over lowercase) or numerically (least to greatest.
+//You will however need to import the class:
+ 
+import java.util.ArrayList;
+import java.util.Collections;     // Import the Collections class
+
+
+/*
+Lets say we have 2 lists:
+    'nums' which has [3, 7, 8, 2, -1, -10, 0]
+    'cars' which has ["Volvo", "BMW", "Ford", "Mazda"]
+*/
+
+Collections.sort(nums);     // new nums list: -10, -1, 0, 2, 3, 7, 8
+Collections.sort(cars);     // new cars list: "BMW", "Ford", "Mazda",
+
+```
+<br>
+
 
 ##### ```Iterating Through List```
 ```Java
 // There are two ways of looping through a list: a for-loop, and a for-each loop:
 
 
-// A for-loop is useful when you need to make use of the index feature
+// A for-loop is useful when you need to make use of the index feature.
 for (int i = 0; i < cars.size(); i++) {
     System.out.println(cars.get(i));
 }
 
 
-// A for-each loop is more convenient and quicker as it doesn't need indices
+// A for-each loop is more convenient and quicker as it doesn't need indices.
 for (String i : cars) {
       System.out.println(i);
 }
