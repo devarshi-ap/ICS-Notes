@@ -18,3 +18,23 @@ public static int sum(ArrayList<Integer> ListOfNumbers) {
 }
 ```
 <br>
+
+
+##### ```Find Smallest Number``` can be altered to find largest
+Iterates through list using for-loop (index will be used), compares values and saves the smallest number to a variable
+```Java
+// To alter for finding largest instead, flip the sign in the if-statement and change the variable name and print statement
+
+int smallest = list.get(0);
+
+for(int i = 0; i < list.size() - 1; i++) {
+
+    int number = list.get(i);
+    if (smallest > number) {             
+        smallest = number;
+    }
+}
+
+System.out.println("The smallest number: " + smallest);
+```
+<br>
