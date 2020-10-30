@@ -69,13 +69,17 @@ public class MyClass {
 
 ##### ```Return```
 ```Java
+// As mentioned previously, the 'void' keyword in the method declaration 'public static void myMethod' means that theres no return type; no value, string, int, double, or boolean is being returned. Had you returned a value, you have to replace void with the return type (int, double, String, char, boolean) :
 
-```
-<br>
+public class MyClass {
+  static int myMethod(int x) {
+    return 5 + x;
+  }
 
-
-##### ```Void```
-```Java
-
+  public static void main(String[] args) {
+    System.out.println(myMethod(3));
+  }
+}
+// Outputs 8 (5 + 3)
 ```
 <br>
