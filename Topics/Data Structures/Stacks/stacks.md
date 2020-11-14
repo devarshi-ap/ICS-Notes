@@ -1,10 +1,11 @@
-# ```Stacks``` import java.util.Queue;
+# ```Stacks``` import java.util.Stack;
 Stacks are an abstract data type with a bounded(predefined) capacity.
 
 <br>
 
 To help visualize Stacks, parallel it to a stack of video games, where the first element added to the stack is at the bottom. Every time you add a video game, it gets added ontop of the stack.
 
+<br>
 
 ##### ```Declaration```
 ```Java
