@@ -1,4 +1,4 @@
-# Stacks
+# ```Stacks``` import java.util.Queue;
 Stacks are an abstract data type with a bounded(predefined) capacity.
 
 <br>
@@ -52,5 +52,49 @@ games.get(2);   //"Pokemon"
 games.pop();      // pop() popped the top element out (pokemon) and now leaves us with "Call of Duty","Genshin Impact"
 games.pop();     // "Call of Duty"
 games.pop();    // Empty now
+```
+<br>
+
+
+
+##### ```Peeking```
+```Java
+//to simply see the top (last element) of the stack- but not remove it, use stackName.peek();
+
+games.peek();   // "Pokemon"
+```
+<br>
+
+
+
+##### ```Check for Element```
+```Java
+//return true/false whether or not the element specified is in the stack; using stackName.contains(x);
+
+games.contains("Genshin Impact");   //true
+games.contains("Assassins Creed");   //false
+```
+<br>
+
+
+
+##### ```Check If Empty```
+```Java
+//to check if stack is empty, stackName.empty(). returns true or false
+
+games.empty();   //false
+```
+<br>
+
+
+
+##### ```Size```
+```Java
+//to check how many elements are in the stack (size), use stackName.size()
+
+games.size();   //3
+
+games.pop();
+games.size();   //2; pop() removed the top element
 ```
 <br>
