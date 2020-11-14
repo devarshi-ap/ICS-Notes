@@ -41,3 +41,16 @@ games.get(1);   //"Genshin Impact"
 games.get(2);   //"Pokemon"
 ```
 <br>
+
+
+
+##### ```Removing from Stack```
+```Java
+// for the stack data structure you can only remove the element at the top (last element in stack)
+// to do so, use stackName.pop();
+
+games.pop();      // pop() popped the top element out (pokemon) and now leaves us with "Call of Duty","Genshin Impact"
+games.pop();     // "Call of Duty"
+games.pop();    // Empty now
+```
+<br>
